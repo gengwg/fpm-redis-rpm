@@ -1,12 +1,12 @@
 # fpm-redis-rpm
 
-Building Redis RPM using a Centos 7 Vagrant box.
+Build [Redis](https://redis.io/) RPM using a Centos 7 Vagrant box.
 
-## Building
+## Build
 
     vagrant up
 
-After some minutes, you will find the Redis rpm in your current directory, e.g. `redis-3.2.8-4.x86_64.rpm`.
+After some minutes, you will find the Redis RPM in your current directory, e.g. `redis-3.2.8-4.x86_64.rpm`.
 
 ## Usage
 
