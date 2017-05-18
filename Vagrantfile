@@ -54,10 +54,10 @@ Vagrant.configure(2) do |config|
   #
   # View the documentation for the provider you are using for more
   # information on available options.
+  config.vm.hostname = "gengwg"
 
   config.vm.provider "virtualbox" do |vb|
     vb.name = "fpm"
-    config.vm.hostname = "gengwg"
     vb.memory = "1024"
   end
 
