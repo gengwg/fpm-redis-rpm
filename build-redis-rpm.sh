@@ -5,7 +5,7 @@ set -ex
 # modify to the version that you want to build
 redis_version="3.2.8"
 redis_url="http://download.redis.io/releases/redis-${redis_version}.tar.gz"
-RELEASE=4
+RELEASE=5
 
 # on dedicated build machine
 #base_dir=$(pwd)
